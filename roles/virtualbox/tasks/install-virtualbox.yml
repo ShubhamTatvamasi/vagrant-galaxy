@@ -1,0 +1,9 @@
+---
+- name: Install Virtualbox
+  apt:
+    name: "{{ packages }}"
+    update_cache: yes
+  vars:
+    packages:
+    - virtualbox
+    - virtualbox-guest-utils

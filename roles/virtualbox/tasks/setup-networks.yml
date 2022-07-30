@@ -1,0 +1,10 @@
+---
+- name: Create VirtualBox config directory
+  file:
+    path: /etc/vbox
+    state: directory
+
+- name: Copy VirtualBox network config file
+  copy:
+    src: networks.conf
+    dest: /etc/vbox/networks.conf

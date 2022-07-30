@@ -1,0 +1,5 @@
+---
+- import_tasks: install-virtualbox.yml
+  become: yes
+- import_tasks: setup-networks.yml
+  become: yes

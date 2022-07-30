@@ -1,0 +1,7 @@
+---
+- name: Install Vagrant
+  hosts: all
+  roles:
+    - role: virtualbox
+    - role: vagrant
+    - role: ansible

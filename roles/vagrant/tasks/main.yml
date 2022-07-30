@@ -1,0 +1,4 @@
+---
+- import_tasks: install-vagrant.yml
+  become: yes
+- import_tasks: plugins.yml
