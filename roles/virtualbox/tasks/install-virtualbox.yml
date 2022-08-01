@@ -5,5 +5,5 @@
     update_cache: yes
   vars:
     packages:
-    - virtualbox
-    - virtualbox-guest-utils
+      - virtualbox
+      - virtualbox-guest-utils
